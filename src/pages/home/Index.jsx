@@ -6,9 +6,6 @@ import Flower from "../../assets/Flower.svg";
 import Maps from "../../components/Maps/Index";
 import LocationPin from "../../assets/location-pin.jsx";
 import Phone from "../../assets/phone.jsx";
-
-import "swiper/css";
-
 import ComponentsStyles from "./Style";
 import Card from "../../components/Card";
 import { Slide, Slider } from "../../components/Slider/Index";
@@ -19,15 +16,16 @@ import {
   About,
   Winner,
   Location,
+  Whatsapp,
 } from "../../content/json/components-mock.json";
 import Picture from "../../components/Picture";
 import Footer from "../../components/Footer";
 import { Element } from "react-scroll";
-
+import Feedbacks from "./Feedbacks/Index.jsx";
 
 export default function Home() {
   const [slidesPerView, setSlidesPerView] = useState(6);
-
+  
   const settings = {
     slidesPerView: slidesPerView,
     loop: true,
@@ -44,7 +42,7 @@ export default function Home() {
   return (
     <div id="home">
       <Header mainContainerRef={mainContainerRef} />
-      <MainContainer ref={mainContainerRef} className='closeTooltip'>
+      <MainContainer ref={mainContainerRef} className="closeTooltip">
         <ComponentsStyles.Hero id="hero">
           <ComponentsStyles.HeroContainer>
             <ComponentsStyles.HeroContent>
@@ -52,12 +50,14 @@ export default function Home() {
                 <ComponentsStyles.HeroTitle>
                   {HeroInfo.phrase}
                 </ComponentsStyles.HeroTitle>
-                <ComponentsStyles.ButtonCTA
-                  color="#fff"
-                  $colorhover="var(--secundary-color)"
-                >
-                  Book Now
-                </ComponentsStyles.ButtonCTA>
+                <a href={Whatsapp.link} target="_blanket">
+                  <ComponentsStyles.ButtonCTA
+                    color="#fff"
+                    $colorhover="var(--secundary-color)"
+                  >
+                    Book Now
+                  </ComponentsStyles.ButtonCTA>
+                </a>
               </ComponentsStyles.HeroContentWrapper>
               <ComponentsStyles.Email>
                 <a
@@ -79,10 +79,9 @@ export default function Home() {
               <ComponentsStyles.Foto
                 alt="foto"
                 style={{
-                  minWidth: "50%",
-                  background: "green",
-                  height: "400px",
+                  width: "100%",
                 }}
+                src="images/history.jpg"
               />
               <ComponentsStyles.HistoryContent>
                 <ComponentsStyles.DescriptionTitle>
@@ -103,6 +102,8 @@ export default function Home() {
             </ComponentsStyles.HistoryContainer>
           </ComponentsStyles.History>
         </Element>
+
+        <Feedbacks />
 
         <ComponentsStyles.Services>
           <ComponentsStyles.SectionTitle>
@@ -129,12 +130,14 @@ export default function Home() {
               <ComponentsStyles.Description style={{ color: "#fff" }}>
                 {Winner.description}
               </ComponentsStyles.Description>
-              <ComponentsStyles.ButtonCTA
-                color="#fff"
-                $colorhover="var(--secundary-color)"
-              >
-                Book Now
-              </ComponentsStyles.ButtonCTA>
+              <a href={Whatsapp.link} target="_blanket">
+                <ComponentsStyles.ButtonCTA
+                  color="#fff"
+                  $colorhover="var(--secundary-color)"
+                >
+                  Book Now
+                </ComponentsStyles.ButtonCTA>
+              </a>
             </ComponentsStyles.WinnerContent>
             <ComponentsStyles.WinnerImg src={Winner.image} />
           </ComponentsStyles.WinnerContainer>
@@ -165,7 +168,8 @@ export default function Home() {
                         gap: "8px",
                       }}
                     >
-                      <LocationPin color="var(--secundary-color)" /> {Location.address}
+                      <LocationPin color="var(--secundary-color)" />{" "}
+                      {Location.address}
                     </ComponentsStyles.InfoSpan>
                   </ComponentsStyles.InfoContainer>
                   <div>
@@ -186,12 +190,14 @@ export default function Home() {
                   >
                     {Location.description}
                   </ComponentsStyles.DescriptionLight>
-                  <ComponentsStyles.ButtonCTA
-                    color="var(--secundary-color)"
-                    $colorhover="#fff"
-                  >
-                    Book Now
-                  </ComponentsStyles.ButtonCTA>
+                  <a href={Whatsapp.link} target="_blanket">
+                    <ComponentsStyles.ButtonCTA
+                      color="var(--secundary-color)"
+                      $colorhover="#fff"
+                    >
+                      Book Now
+                    </ComponentsStyles.ButtonCTA>
+                  </a>
                 </ComponentsStyles.AddressContent>
               </ComponentsStyles.LocationContent>
             </ComponentsStyles.LocationContainer>

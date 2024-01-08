@@ -2,15 +2,20 @@ import styled from "styled-components";
 
 const Hero = styled.section`
   padding: var(--padding-section-global);
-  background: url(https://obliquebeauty.uk/storage/home-sliders/February2021/slider2nogti1.jpg);
+  background: url(images/heroBanner.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
   background-position: center;
+
+  @media (max-width: 768px) {
+    background: url(images/heroBannerMobile.jpg);
+    background-position: bottom;
+  }
 `
 const HeroContainer = styled.div`
   display: grid;
-  grid-template-columns: repeat(2, 50%);
+  grid-template-columns: 40% 60%;
   height: 100%;
   align-items: center;
 
@@ -21,9 +26,18 @@ const HeroContainer = styled.div`
 `
 
 const HeroContent = styled.div`
+  grid-column-start: 2;
   display: grid;
   grid-template-rows: repeat(3, 1fr);
   height: 50%;
+  text-align: right;
+  justify-items: right;
+
+  @media (max-width:768px) {
+    text-align: center;
+    justify-items: center;
+    grid-column-start: 1;
+  }
 `
 
 const HeroTitle = styled.h2`
@@ -63,6 +77,10 @@ const HeroContentWrapper = styled.div`
   grid-row-end: 3;
   display: grid;
   gap: 20px;
+  justify-items: right;
+  @media (max-width:768px) {
+    justify-items: center;
+  }
 `
 
 const Email = styled.div`
@@ -77,7 +95,7 @@ const Email = styled.div`
 
 const History = styled.section`
   padding: var(--padding-section-global);
-  background: linear-gradient(to bottom, var(--primary-color) 70%, #A8B89E 30%);
+  background: linear-gradient(to bottom, var(--primary-color) 65%, var(--third-color) 35%);
   @media (max-width: 768px) {
     text-align: center;
   }
@@ -126,7 +144,7 @@ const Description = styled.div`
 `
 
 const FlowerImg = styled.img`
-  margin-top: 100px;
+  margin-top: 60px;
   grid-column-start: 3;
 
   @media (max-width: 768px) {
@@ -136,7 +154,7 @@ const FlowerImg = styled.img`
 
 const Foto = styled.img`
   grid-column: 1/2;
-
+  border-radius: 10px;
 
   @media (max-width: 768px) {
     grid-row-start: 3;

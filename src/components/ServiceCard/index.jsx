@@ -2,13 +2,14 @@ import React from "react";
 import styled from "styled-components";
 
 import ComponentStyle from "./Style";
+import {Whatsapp} from "../../content/json/components-mock.json"
 
 
 export default function ServiceCard(props) {
 
   return (
     <ComponentStyle.ServiceContainerCard>
-      <ComponentStyle.CardImg $background={props.background} />
+      <ComponentStyle.CardImg $background={props.background}/>
       <ComponentStyle.TimeContainer>
         <ComponentStyle.Time>{props.time}</ComponentStyle.Time>
       </ComponentStyle.TimeContainer>
@@ -28,7 +29,7 @@ export default function ServiceCard(props) {
             ))}
           </ComponentStyle.Benefits>
         </ComponentStyle.CardContent>
-        <a href="https://wa.me/XXXXXXXXXXX" target="_blanket">
+        <a href={Whatsapp.link} target="_blanket">
           <ComponentStyle.CardButton>Book Now</ComponentStyle.CardButton>
         </a>
       </ComponentStyle.InfoContainer>

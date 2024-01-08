@@ -1,12 +1,10 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "../../pages/home";
+import Home from "../../pages/home/Index";
 import Services from '../../pages/Services'
 import NotFound from "../../pages/NotFound";
 import React from 'react'
-import { useEffect } from "react";
 
-
-const RoutesConfig = (props) => {
+const RoutesConfig = () => {
 
   return (
     <Router>

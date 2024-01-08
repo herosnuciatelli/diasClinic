@@ -5,6 +5,7 @@ import styled from 'styled-components'
 import ServiceCard from '../../components/ServiceCard'
 import { Element } from 'react-scroll'
 import WppButton from "../../components/WppButton";
+import Footer from "../../components/Footer"
 
 const ServiceBanner = styled.div.attrs(props => ({
   $bannerbackground: props.$bannerbackground
@@ -75,6 +76,7 @@ export default function Services() {
         )))}
 
       </MainContainer>
+      <Footer />
       <WppButton />
     </>
   )
