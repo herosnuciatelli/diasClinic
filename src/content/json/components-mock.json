@@ -1,0 +1,308 @@
+{
+  "cards_home_services": [
+    {
+      "background": "https://obliquebeauty.uk/storage/cropped/service-categories/image_home_image_1_list.jpeg",
+      "title": "Face",
+      "bannerTitle": "FACIAL TREATMENTS",
+      "Services": [
+        {
+          "serviceName": "Facial Massage"
+        },
+        {
+          "serviceName": "Facial Massage2"
+        }
+      ]
+    },
+    {
+      "background": "https://obliquebeauty.uk/storage/cropped/service-categories/image_home_image_1_list.jpeg",
+      "title": "Body",
+      "bannerTitle": "BODY TREATMENTS",
+      "Services": [
+        {
+          "serviceName": "Body Massage"
+        },
+        {
+          "serviceName": "Body Massage2"
+        }
+      ]
+    },
+    {
+      "background": "https://obliquebeauty.uk/storage/cropped/service-categories/image_home_image_1_list.jpeg",
+      "title": "Nails",
+      "bannerTitle": "NAILS TREATMENTS",
+      "Services": [
+        {
+          "serviceName": "Nails Massage"
+        },
+        {
+          "serviceName": "Nails Massage2"
+        }
+      ]
+    },
+    {
+      "background": "https://obliquebeauty.uk/storage/cropped/service-categories/image_home_image_1_list.jpeg",
+      "title": "Hair",
+      "bannerTitle": "HAIR TREATMENTS",
+      "Services": [
+        {
+          "serviceName": "Hair Massage"
+        },
+        {
+          "serviceName": "Hair Massage2"
+        }
+      ]
+    },
+    {
+      "background": "https://obliquebeauty.uk/storage/cropped/service-categories/image_home_image_1_list.jpeg",
+      "title": "Lashes | Brows",
+      "bannerTitle": "LASHES | BROWS TREATMENTS",
+      "Services": [
+        {
+          "serviceName": "Lashes Massage"
+        },
+        {
+          "serviceName": "Lashes Massage2"
+        }
+      ]
+    }
+  ],
+  "Images": [
+    {
+      "img": "https://protectionforbeauty.volkdobrasil.com.br/blog/wp-content/uploads/2019/01/saiba-como-atrair-clientes-para-o-seu-salao-de-beleza.jpeg"
+    },
+    {
+      "img": "https://negociosdebeleza.beautyfair.com.br/wp-content/uploads/2022/09/Como-iniciar-na-carreira-de-maquiadora-2-923x496.png"
+    },
+    {
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7iyO320gxDZX4xRwaBe-y9FLWnQvfPJxncMJQJC4v4VC73bmNyznH7Kb_EN28a5iVYz8&usqp=CAU"
+    },
+    {
+      "img": "https://2.bp.blogspot.com/-J3XE-EPGe6w/VoxGF-ni_gI/AAAAAAAAA0c/14pUe7qbogk/s1600/sal%25C3%25A3o.jpg"
+    },
+    {
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhQkHSqVRzS4JJ_2ulrd84ZtOWqeVp-Pz0YbVuOasb1gGfmw4gNUyMAmIxHHouMSbrIxs&usqp=CAU"
+    },
+    {
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuFAsFV_jKVvVl2pjAdg716d7waP3ee1-ttgABuPb1pA263UL2PYUWi28sS-B77beSLC0&usqp=CAU"
+    },
+    {
+      "img": "https://softhair.com.br/wp-content/uploads/2019/09/307614-treinamento-e-desenvolvimento-para-os-colaboradores-do-salao-de-beleza-encantar-os-clientes.jpg"
+    }
+  ],
+  "HeroInfo": {
+    "phrase": "Lorem Ipsum Alguma coisa something json",
+    "email": "EMAIL@GMAIL.COM"
+  },
+  "About": [
+    {
+      "title": "LOREM IPSUM",
+      "description": "Lorem ipsum dolor sit amet, consectetur ad"
+    },
+    {
+      "title": "LOREM IPSUM 2",
+      "description": "Lorem ipsum dolor sit amet, consectetur ad"
+    }
+  ],
+  "Winner": {
+    "title": "SAFETY IN BEAUTY DIAMOND AWARD FOR BEST BEAUTY BUSINESS OF 2022",
+    "description": "Diamond Award is the highest recognition for beauty businesses in China. It is a prestig",
+    "image": "https://obliquebeauty.uk/images/award.png"
+  },
+  "Location": {
+    "title": "OBLIQUE HOUSE OF NAILS",
+    "address": "15 BUTE ST, SOUTH KENSINGTON, LONDON, UK",
+    "phone": "+44 7465 645176",
+    "description": "Oblique Beauty House is a unique beauty destination that offers total make-over solutions for your hands, feet, brows, lashes, make-up and full hair services in a luxurious yet friendly atmosphere!"
+  },
+  "Pictures": {
+    "phrase": "WE ARE FOR AESTHETIC PLEASURE"
+  },
+
+  "Services": [
+    {
+      "Banners": [
+        {
+          "bannerTitle": "FACIAL TREATMENTS",
+          "background": "https://obliquebeauty.uk/storage/service-categories/March2021/Oblique_image_face_background.jpg"
+        },
+        {
+          "bannerTitle": "NAILS TREATMENTS",
+          "background": "https://obliquebeauty.uk/storage/service-categories/March2021/Oblique_image_face_background.jpg"
+        },
+        {
+          "bannerTitle": "BODY TREATMENTS",
+          "background": "https://obliquebeauty.uk/storage/service-categories/March2021/Oblique_image_face_background.jpg"
+        },
+        {
+          "bannerTitle": "LASHES | BROWS TREATMENTS",
+          "background": "https://obliquebeauty.uk/storage/service-categories/March2021/Oblique_image_face_background.jpg"
+        },
+        {
+          "bannerTitle": "HAIR TREATMENTS",
+          "background": "https://obliquebeauty.uk/storage/service-categories/March2021/Oblique_image_face_background.jpg"
+        }
+      ]
+    },
+    {
+      "Cards": {
+        "FACIAL TREATMENTS": [
+          {
+            "cardTitle": "FACIAL TREATMENTS",
+            "time": "60 min",
+            "price": "$190",
+            "background": "https://obliquebeauty.uk/storage/cropped/service-articles/image_category_image_76_list.jpeg",
+            "description": "Innovative facial treatment that brings together avant-garde products with advanced manual technique to rejuvenate your skin",
+            "benefits": [
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE SKIN1"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE SKIN2"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE SKIN3"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE SKIN4"
+              }
+            ]
+          },
+          {
+            "cardTitle": "FACIAL TREATMENTS 2",
+            "time": "60 min",
+            "price": "$190",
+            "background": "https://obliquebeauty.uk/storage/cropped/service-articles/image_category_image_76_list.jpeg",
+            "description": "Innovative facial treatment that brings together avant-garde products with advanced manual technique to rejuvenate your skin",
+            "benefits": [
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE SKIN5"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE SKIN6"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE SKIN7"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE SKIN8"
+              }
+            ]
+          },
+          {
+            "cardTitle": "FACIAL TREATMENTS 3",
+            "time": "60 min",
+            "price": "$190",
+            "background": "https://obliquebeauty.uk/storage/cropped/service-articles/image_category_image_76_list.jpeg",
+            "description": "Innovative facial treatment that brings together avant-garde products with advanced manual technique to rejuvenate your skin",
+            "benefits": [
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE SKIN9"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE SKIN10"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE SKIN11"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE SKIN12"
+              }
+            ]
+          }
+        ],
+        "NAILS TREATMENTS": [
+          {
+            "cardTitle": "NAILS TREATMENTS",
+            "time": "60 min",
+            "price": "$90",
+            "background": "https://obliquebeauty.uk/storage/cropped/service-articles/image_category_image_76_list.jpeg",
+            "description": "Innovative facial treatment that brings together avant-garde products with advanced manual technique to rejuvenate your skin",
+            "benefits": [
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL2"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL3"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL4"
+              }
+            ]
+          }
+        ],
+        "HAIR TREATMENTS": [
+          {
+            "cardTitle": "HAIR TREATMENTS",
+            "time": "60 min",
+            "price": "$90",
+            "background": "https://obliquebeauty.uk/storage/cropped/service-articles/image_category_image_76_list.jpeg",
+            "description": "Innovative facial treatment that brings together avant-garde products with advanced manual technique to rejuvenate your skin",
+            "benefits": [
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL2"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL3"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL4"
+              }
+            ]
+          }
+        ],
+        "LASHES | BROWS TREATMENTS": [
+          {
+            "cardTitle": "LASHES | BROWS TREATMENTS",
+            "time": "60 min",
+            "price": "$90",
+            "background": "https://obliquebeauty.uk/storage/cropped/service-articles/image_category_image_76_list.jpeg",
+            "description": "Innovative facial treatment that brings together avant-garde products with advanced manual technique to rejuvenate your skin",
+            "benefits": [
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL2"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL3"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL4"
+              }
+            ]
+          }
+        ],
+        "BODY TREATMENTS": [
+          {
+            "cardTitle": "BODY TREATMENTS",
+            "time": "60 min",
+            "price": "$90",
+            "background": "https://obliquebeauty.uk/storage/cropped/service-articles/image_category_image_76_list.jpeg",
+            "description": "Innovative facial treatment that brings together avant-garde products with advanced manual technique to rejuvenate your skin",
+            "benefits": [
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL2"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL3"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL4"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
