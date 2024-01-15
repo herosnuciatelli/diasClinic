@@ -31,6 +31,7 @@ const ServiceContainer = styled.div`
   display:grid;
   grid-template-columns: repeat(3, minmax(min(290px, 100%), 1fr));
   column-gap: 20px;
+  row-gap: 20px;
 
   @media (max-width: 1024px) {
     grid-template-columns: repeat(auto-fit, minmax(min(270px, 100%), 1fr));
@@ -38,7 +39,6 @@ const ServiceContainer = styled.div`
 
   @media (max-width: 768px) {
     grid-template-columns: 100%;
-    row-gap: 20px;
   }
 `;
 

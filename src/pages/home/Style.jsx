@@ -95,7 +95,7 @@ const Email = styled.div`
 
 const History = styled.section`
   padding: var(--padding-section-global);
-  background: linear-gradient(to bottom, var(--primary-color) 65%, var(--third-color) 35%);
+  background: var(--primary-color);
   @media (max-width: 768px) {
     text-align: center;
   }
@@ -123,7 +123,7 @@ const HistoryContainer = styled.div`
 const HistoryContent = styled.div`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-
+  align-content: start;
   @media (max-width: 768px) {
     grid-row-start: 1;
     grid-row-end: 3;
@@ -141,15 +141,7 @@ const Description = styled.div`
   grid-column-start: 1;
   grid-column-end: 4;
   margin: 20px 0;
-`
-
-const FlowerImg = styled.img`
-  margin-top: 60px;
-  grid-column-start: 3;
-
-  @media (max-width: 768px) {
-    display: none;
-  }
+  opacity: 0.7;
 `
 
 const Foto = styled.img`
@@ -228,7 +220,7 @@ const WinnerImg = styled.img`
 
 const Locations = styled.section`
   padding: var(--padding-section-global);
-  background-color: var(--third-color);
+  background: var(--primary-color);
 `;
 const LocationContainer = styled.div``;
 const LocationContent = styled.div`
@@ -313,7 +305,6 @@ export default {
     HistoryContent,
     Description,
     DescriptionTitle,
-    FlowerImg,
     Foto,
     Services,
     ServicesContainer,

@@ -22,14 +22,16 @@ const CardImg = styled.div.attrs((props) => ({
   `;
   
   const ServiceContainerCard = styled.div`
+    position: relative;
     border: 1px solid #ebe6d6;
     width: 100%;
     max-width: 370px;
     display: grid;
     justify-items: center;
-  
+    grid-template-rows: 230px 20px 1fr 70px;
+
     &:hover {
-      background: var(--primary-color);
+      background: #fefae0;
     }
     &:hover ${CardImg} {
       filter: grayscale(0);
@@ -49,8 +51,10 @@ const CardImg = styled.div.attrs((props) => ({
     padding: 5px 15px;
     background-color: var(--third-color);
     width: max-content;
+    margin: 0 auto;
     margin-top: -15px;
     z-index: 1;
+    height: max-content;
   `;
   const Time = styled.span`
     color: #fff;
@@ -74,16 +78,13 @@ const CardImg = styled.div.attrs((props) => ({
   const CardContent = styled.div`
     padding: 0 15px;
   `;
-  const CardButton = styled.button`
-    margin-top: 40px;
-    margin-bottom: 20px;
+  const CardButton = styled.a`
     cursor: pointer;
     color: var(--secundary-color);
     font-size: 15px;
     letter-spacing: 0.15em;
     text-transform: uppercase;
-    border: none;
-    background: transparent;
+    text-decoration: none;
   `;
   
   const Description = styled.p`

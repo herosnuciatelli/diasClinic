@@ -2,7 +2,6 @@ import React, { useEffect, useRef, useState } from "react";
 import { Header } from "../../components/Header/Index.jsx";
 import { MainContainer } from "../../styles/Index";
 import WppButton from "../../components/WppButton";
-import Flower from "../../assets/Flower.svg";
 import Maps from "../../components/Maps/Index";
 import LocationPin from "../../assets/location-pin.jsx";
 import Phone from "../../assets/phone.jsx";
@@ -25,7 +24,7 @@ import Feedbacks from "./Feedbacks/Index.jsx";
 
 export default function Home() {
   const [slidesPerView, setSlidesPerView] = useState(6);
-  
+
   const settings = {
     slidesPerView: slidesPerView,
     loop: true,
@@ -73,7 +72,7 @@ export default function Home() {
         <Element name="aboutsection">
           <ComponentsStyles.History id="about">
             <ComponentsStyles.SectionTitle>
-              History
+              ABOUT US
             </ComponentsStyles.SectionTitle>
             <ComponentsStyles.HistoryContainer>
               <ComponentsStyles.Foto
@@ -85,19 +84,14 @@ export default function Home() {
               />
               <ComponentsStyles.HistoryContent>
                 <ComponentsStyles.DescriptionTitle>
-                  {About[0].title}
+                  {About.title}
                 </ComponentsStyles.DescriptionTitle>
-                <ComponentsStyles.Description>
-                  {About[0].description}
-                </ComponentsStyles.Description>
-                <ComponentsStyles.DescriptionTitle>
-                  {About[1].title}
-                </ComponentsStyles.DescriptionTitle>
-                <ComponentsStyles.Description>
-                  {About[1].description}
-                </ComponentsStyles.Description>
 
-                <ComponentsStyles.FlowerImg src={Flower} alt="flower" />
+                {About.description.map((description) => (
+                  <ComponentsStyles.Description key={description}>
+                    {description}
+                  </ComponentsStyles.Description>
+                ))}
               </ComponentsStyles.HistoryContent>
             </ComponentsStyles.HistoryContainer>
           </ComponentsStyles.History>

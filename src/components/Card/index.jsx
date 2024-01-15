@@ -73,6 +73,8 @@ export default function Card(props) {
         await navigate("/services");
     
         scrollTo(`${props.bannerTitle}`);
+
+        console.log(props.bannerTitle)
       };
 
 

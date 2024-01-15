@@ -3,67 +3,27 @@
     {
       "background": "https://obliquebeauty.uk/storage/cropped/service-categories/image_home_image_1_list.jpeg",
       "title": "Face",
-      "bannerTitle": "FACIAL TREATMENTS",
-      "Services": [
-        {
-          "serviceName": "Facial Massage"
-        },
-        {
-          "serviceName": "Facial Massage2"
-        }
-      ]
+      "bannerTitle": "FACE"
     },
     {
       "background": "https://obliquebeauty.uk/storage/cropped/service-categories/image_home_image_1_list.jpeg",
-      "title": "Body",
-      "bannerTitle": "BODY TREATMENTS",
-      "Services": [
-        {
-          "serviceName": "Body Massage"
-        },
-        {
-          "serviceName": "Body Massage2"
-        }
-      ]
+      "title": "HAIR",
+      "bannerTitle": "HAIR"
     },
     {
       "background": "https://obliquebeauty.uk/storage/cropped/service-categories/image_home_image_1_list.jpeg",
-      "title": "Nails",
-      "bannerTitle": "NAILS TREATMENTS",
-      "Services": [
-        {
-          "serviceName": "Nails Massage"
-        },
-        {
-          "serviceName": "Nails Massage2"
-        }
-      ]
+      "title": "HAIR REMOVAL",
+      "bannerTitle": "HAIR REMOVAL"
     },
     {
       "background": "https://obliquebeauty.uk/storage/cropped/service-categories/image_home_image_1_list.jpeg",
-      "title": "Hair",
-      "bannerTitle": "HAIR TREATMENTS",
-      "Services": [
-        {
-          "serviceName": "Hair Massage"
-        },
-        {
-          "serviceName": "Hair Massage2"
-        }
-      ]
+      "title": "BODY",
+      "bannerTitle": "BODY"
     },
     {
       "background": "https://obliquebeauty.uk/storage/cropped/service-categories/image_home_image_1_list.jpeg",
-      "title": "Lashes | Brows",
-      "bannerTitle": "LASHES | BROWS TREATMENTS",
-      "Services": [
-        {
-          "serviceName": "Lashes Massage"
-        },
-        {
-          "serviceName": "Lashes Massage2"
-        }
-      ]
+      "title": "MASSAGE",
+      "bannerTitle": "MASSAGE"
     }
   ],
   "Images": [
@@ -93,16 +53,14 @@
     "phrase": "Lorem Ipsum is simply dummy text of the printing",
     "email": "EMAIL@GMAIL.COM"
   },
-  "About": [
-    {
-      "title": "LOREM IPSUM",
-      "description": "Lorem ipsum dolor sit amet, consectetur ad"
-    },
-    {
-      "title": "LOREM IPSUM 2",
-      "description": "Lorem ipsum dolor sit amet, consectetur ad"
-    }
-  ],
+  "About": {
+    "title": "HISTORY",
+    "description": [
+      "Welcome to Dias Clinic, your excellence in aesthetics nestled in the heart of Notting Hill! With three years dedicated to enhancing beauty and well-being, we have proudly earned the title of the top-rated clinic for the prestigious years of 2021, 2022, and 2023, solidifying our reputation with impeccable five-star reviews.",
+      "At Dias Clinic, we offer cutting-edge facial and body treatments. Explore our array of procedures, from the innovative EMS Body Sculp to the proven efficacy of Radio Frequency, Pressotherapy, Lipo Laser, and Lymphatic Drainage Massage. We are committed to delivering transformative experiences, cellulite treatments, mesotherapy, fat-dissolving injections, and the revitalizing benefits of B12, C, and D vitamins.",
+      "To enhance facial beauty, we present exclusive treatments such as PRX, Profhilo Biorevitalization, Radio Frequency, HydraFacial, and specialised acne treatments. Uncover skin perfection with our deep facial cleaning services, Dermapen, and Dermaplaning."
+    ]
+  },
   "Winner": {
     "title": "SAFETY IN BEAUTY DIAMOND AWARD FOR BEST BEAUTY BUSINESS OF 2022",
     "description": "Diamond Award is the highest recognition for beauty businesses in China. It is a prestig",
@@ -111,7 +69,7 @@
   "Location": {
     "title": "OBLIQUE HOUSE OF NAILS",
     "address": "15 BUTE ST, SOUTH KENSINGTON, LONDON, UK",
-    "phone": "+44 7465 645176",
+    "phone": "+44 7862 497077",
     "description": "Oblique Beauty House is a unique beauty destination that offers total make-over solutions for your hands, feet, brows, lashes, make-up and full hair services in a luxurious yet friendly atmosphere!"
   },
   "Pictures": {
@@ -122,99 +80,558 @@
     {
       "Banners": [
         {
-          "bannerTitle": "FACIAL TREATMENTS",
+          "bannerTitle": "FACE",
           "background": "https://obliquebeauty.uk/storage/service-categories/March2021/Oblique_image_face_background.jpg"
         },
         {
-          "bannerTitle": "NAILS TREATMENTS",
+          "bannerTitle": "HAIR",
           "background": "https://obliquebeauty.uk/storage/service-categories/March2021/Oblique_image_face_background.jpg"
         },
         {
-          "bannerTitle": "BODY TREATMENTS",
+          "bannerTitle": "HAIR REMOVAL",
           "background": "https://obliquebeauty.uk/storage/service-categories/March2021/Oblique_image_face_background.jpg"
         },
         {
-          "bannerTitle": "LASHES | BROWS TREATMENTS",
+          "bannerTitle": "BODY",
           "background": "https://obliquebeauty.uk/storage/service-categories/March2021/Oblique_image_face_background.jpg"
         },
         {
-          "bannerTitle": "HAIR TREATMENTS",
+          "bannerTitle": "MASSAGE",
           "background": "https://obliquebeauty.uk/storage/service-categories/March2021/Oblique_image_face_background.jpg"
         }
       ]
     },
     {
       "Cards": {
-        "FACIAL TREATMENTS": [
+        "FACE": [
           {
-            "cardTitle": "FACIAL TREATMENTS",
-            "time": "60 min",
-            "price": "$190",
+            "cardTitle": "Facial - Men's",
+            "time": "1 hr",
+            "price": "£110",
+            "background": "images/services/services.jpg",
+            "description": "Innovative facial therapy that combines cutting-edge products with advanced manual techniques to rejuvenate men's skin.",
+            "benefits": [
+              { "benefit": "Promotes smoother skin" },
+              { "benefit": "Enhances skin texture" },
+              { "benefit": "Boosts skin vitality" },
+              { "benefit": "Revitalizes the complexion" }
+            ]
+          },
+          {
+            "cardTitle": "Facial - Dermaplaning",
+            "time": "45 mins",
+            "price": "£80",
+            "background": "images/services/services.jpg",
+            "description": "Exfoliating facial treatment that removes dead skin cells and fine facial hair, leaving the skin smooth and vibrant.",
+            "benefits": [
+              { "benefit": "Promotes smoother skin" },
+              { "benefit": "Removes impurities" },
+              { "benefit": "Stimulates collagen production" },
+              { "benefit": "Enhances product absorption" }
+            ]
+          },
+          {
+            "cardTitle": "Facial - Dermapen Consultation",
+            "time": "30 mins",
+            "price": "£1",
+            "background": "images/services/services.jpg",
+            "description": "Specialized consultation for facial treatment with Dermapen, aiming for personalized results.",
+            "benefits": [
+              { "benefit": "Personalized treatment plan" },
+              { "benefit": "Expert advice on Dermapen benefits" },
+              { "benefit": "Skin analysis for optimal results" },
+              { "benefit": "Customized skincare recommendations" }
+            ]
+          },
+          {
+            "cardTitle": "Facial - Pigmentation Treatment with Dermapen",
+            "time": "1 hr",
+            "price": "£300",
+            "background": "images/services/services.jpg",
+            "description": "Advanced pigmentation treatment using Dermapen, delivering effective and personalized results.",
+            "benefits": [
+              { "benefit": "Evens out skin tone" },
+              { "benefit": "Reduces hyperpigmentation" },
+              { "benefit": "Enhances skin radiance" },
+              { "benefit": "Improves overall skin texture" }
+            ]
+          },
+          {
+            "cardTitle": "Facial - Deep Cleansing",
+            "time": "40 mins",
+            "price": "£90",
+            "background": "images/services/services.jpg",
+            "description": "Invigorating deep cleansing facial to purify and revitalize the skin, leaving it refreshed and radiant.",
+            "benefits": [
+              { "benefit": "Cleanses pores thoroughly" },
+              { "benefit": "Removes excess oils and impurities" },
+              { "benefit": "Revives dull and tired-looking skin" },
+              { "benefit": "Leaves the skin with a healthy glow" }
+            ]
+          },
+          {
+            "cardTitle": "Facial - Nonsurgical Face Lift",
+            "time": "30 mins",
+            "price": "£85",
+            "background": "images/services/services.jpg",
+            "description": "Non-surgical facelift treatment that tightens and firms the skin for a more youthful appearance.",
+            "benefits": [
+              { "benefit": "Tones and lifts facial muscles" },
+              { "benefit": "Improves skin elasticity" },
+              { "benefit": "Reduces fine lines and wrinkles" },
+              { "benefit": "Promotes a natural-looking lift" }
+            ]
+          },
+          {
+            "cardTitle": "Teenager Acne Treatment",
+            "time": "30 mins",
+            "price": "£85",
+            "background": "images/services/services.jpg",
+            "description": "Specialized acne treatment designed for teenagers, targeting and minimizing breakouts for clearer skin.",
+            "benefits": [
+              { "benefit": "Targets and reduces acne breakouts" },
+              { "benefit": "Balances oil production" },
+              { "benefit": "Calms and soothes irritated skin" },
+              { "benefit": "Promotes a clearer and healthier complexion" }
+            ]
+          },
+          {
+            "cardTitle": "Facial - Micro-Needling",
+            "time": "1 hr 5 mins",
+            "price": "£189",
+            "background": "images/services/services.jpg",
+            "description": "Micro-needling facial treatment that stimulates collagen production, improving skin texture and reducing fine lines.",
+            "benefits": [
+              { "benefit": "Stimulates natural collagen production" },
+              { "benefit": "Reduces fine lines and wrinkles" },
+              { "benefit": "Improves skin texture and tone" },
+              { "benefit": "Enhances overall skin firmness" }
+            ]
+          },
+          {
+            "cardTitle": "Facial - Anti-Ageing",
+            "time": "30 mins",
+            "price": "£150",
+            "background": "images/services/services.jpg",
+            "description": "Anti-aging facial treatment that targets signs of aging, promoting a more youthful and radiant complexion.",
+            "benefits": [
+              { "benefit": "Reduces fine lines and wrinkles" },
+              { "benefit": "Improves skin elasticity and firmness" },
+              { "benefit": "Enhances skin hydration" },
+              { "benefit": "Promotes a youthful and radiant complexion" }
+            ]
+          },
+          {
+            "cardTitle": "Facial - LED Light Therapy",
+            "time": "15 mins",
+            "price": "£60",
+            "background": "images/services/services.jpg",
+            "description": "LED Light Therapy facial treatment that targets specific skin concerns, promoting a clearer and more balanced complexion.",
+            "benefits": [
+              { "benefit": "Targets specific skin concerns" },
+              { "benefit": "Promotes a clearer and more balanced complexion" },
+              { "benefit": "Stimulates collagen production" },
+              { "benefit": "Enhances overall skin vitality" }
+            ]
+          },
+          {
+            "cardTitle": "Facial - Dermapen",
+            "time": "1 hr",
+            "price": "£189",
+            "background": "images/services/services.jpg",
+            "description": "Dermapen facial treatment that promotes collagen production, improving skin texture and reducing imperfections.",
+            "benefits": [
+              { "benefit": "Promotes natural collagen production" },
+              { "benefit": "Reduces fine lines and wrinkles" },
+              { "benefit": "Improves skin texture and tone" },
+              { "benefit": "Minimizes imperfections and blemishes" }
+            ]
+          },
+          {
+            "cardTitle": "Facial - Eye Treatment with Radio frequency",
+            "time": "20 mins",
+            "price": "£50",
+            "background": "images/services/services.jpg",
+            "description": "Eye treatment with radiofrequency to target and reduce signs of aging around the eyes, promoting a more youthful look.",
+            "benefits": [
+              { "benefit": "Targets and reduces signs of aging around the eyes" },
+              { "benefit": "Firms and tightens delicate eye skin" },
+              { "benefit": "Reduces puffiness and dark circles" },
+              { "benefit": "Promotes a more youthful and refreshed appearance" }
+            ]
+          },
+          {
+            "cardTitle": "Facial - Hydrating",
+            "time": "1 hr",
+            "price": "£100",
+            "background": "images/services/services.jpg",
+            "description": "Hydrating facial treatment that replenishes and nourishes the skin, leaving it soft, supple, and revitalized.",
+            "benefits": [
+              { "benefit": "Intensely hydrates and nourishes the skin" },
+              { "benefit": "Restores and maintains skin moisture balance" },
+              { "benefit": "Leaves the skin soft, supple, and revitalized" },
+              { "benefit": "Promotes a healthy and radiant complexion" }
+            ]
+          },
+          {
+            "cardTitle": "Facial - Classic",
+            "time": "1 hr",
+            "price": "£95",
+            "background": "images/services/services.jpg",
+            "description": "Classic facial treatment that addresses specific skin concerns, tailored to enhance and rejuvenate your unique complexion.",
+            "benefits": [
+              { "benefit": "Tailored to address specific skin concerns" },
+              { "benefit": "Enhances and rejuvenates your unique complexion" },
+              { "benefit": "Promotes overall skin health" },
+              { "benefit": "Leaves the skin refreshed and revitalized" }
+            ]
+          },
+          {
+            "cardTitle": "Mini Spa Facial",
+            "time": "30 mins",
+            "price": "£70",
+            "background": "images/services/services.jpg",
+            "description": "Mini spa facial for a quick and refreshing experience, leaving your skin radiant and revitalized.",
+            "benefits": [
+              { "benefit": "Quick and refreshing spa experience" },
+              { "benefit": "Leaves the skin radiant and revitalized" },
+              { "benefit": "Ideal for a busy schedule" },
+              { "benefit": "Promotes a healthy and glowing complexion" }
+            ]
+          },
+          {
+            "cardTitle": "Bridal glow",
+            "time": "45 mins",
+            "price": "£100",
+            "background": "images/services/services.jpg",
+            "description": "Bridal glow facial treatment to enhance your natural radiance, leaving you with a beautiful and luminous complexion.",
+            "benefits": [
+              { "benefit": "Enhances natural radiance for brides" },
+              { "benefit": "Leaves the skin beautifully luminous" },
+              { "benefit": "Tailored for a radiant bridal complexion" },
+              { "benefit": "Promotes a flawless and glowing look" }
+            ]
+          },
+          {
+            "cardTitle": "Facial - Teens",
+            "time": "45 mins",
+            "price": "£80",
+            "background": "images/services/services.jpg",
+            "description": "Teen-focused facial treatment to address specific skincare needs, promoting a clear and healthy complexion.",
+            "benefits": [
+              { "benefit": "Addresses specific teen skincare needs" },
+              { "benefit": "Promotes a clear and healthy complexion" },
+              { "benefit": "Balances oil production" },
+              { "benefit": "Teaches essential skincare habits for teens" }
+            ]
+          },
+          {
+            "cardTitle": "Bridal Facial",
+            "time": "45 mins",
+            "price": "£80",
+            "background": "images/services/services.jpg",
+            "description": "Bridal facial treatment to prepare and enhance your skin for the big day, ensuring a radiant and flawless look.",
+            "benefits": [
+              { "benefit": "Prepares and enhances the skin for the big day" },
+              { "benefit": "Ensures a radiant and flawless bridal look" },
+              { "benefit": "Tailored for the unique needs of brides" },
+              { "benefit": "Promotes a picture-perfect complexion" }
+            ]
+          },
+          {
+            "cardTitle": "PRX 33 - Innovative Peel",
+            "time": "30 mins",
+            "price": "£99",
+            "background": "images/services/services.jpg",
+            "description": "Bridal facial treatment to prepare and enhance your skin for the big day, ensuring a radiant and flawless look.",
+            "benefits": [
+              { "benefit": "Prepares and enhances the skin for the big day" },
+              { "benefit": "Ensures a radiant and flawless bridal look" },
+              { "benefit": "Tailored for the unique needs of brides" },
+              { "benefit": "Promotes a picture-perfect complexion" }
+            ]
+          }
+        ],
+        "HAIR": [
+          {
+            "cardTitle": "Hair Loss Treatment Derma pen Biotin",
+            "time": "1 hr",
+            "price": "£150",
             "background": "images/services/services.jpg",
             "description": "Innovative facial treatment that brings together avant-garde products with advanced manual technique to rejuvenate your skin",
             "benefits": [
               {
-                "benefit": "SMOOTH THE SURFACE OF THE SKIN1"
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL"
               },
               {
-                "benefit": "SMOOTH THE SURFACE OF THE SKIN2"
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL2"
               },
               {
-                "benefit": "SMOOTH THE SURFACE OF THE SKIN3"
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL3"
               },
               {
-                "benefit": "SMOOTH THE SURFACE OF THE SKIN4"
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL4"
+              }
+            ]
+          }
+        ],
+        "HAIR REMOVAL": [
+          {
+            "cardTitle": "Ladies' Waxing - Brazilian ( Hot Wax )",
+            "time": "35 mins",
+            "price": "£50",
+            "background": "images/services/services.jpg",
+            "description": "Innovative facial treatment that brings together avant-garde products with advanced manual technique to rejuvenate your skin",
+            "benefits": [
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL2"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL3"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL4"
               }
             ]
           },
           {
-            "cardTitle": "FACIAL TREATMENTS 2",
-            "time": "60 min",
-            "price": "$190",
+            "cardTitle": "Ladies' Waxing - Hollywood (Hot Wax)",
+            "time": "30 mins",
+            "price": "£55",
             "background": "images/services/services.jpg",
             "description": "Innovative facial treatment that brings together avant-garde products with advanced manual technique to rejuvenate your skin",
             "benefits": [
               {
-                "benefit": "SMOOTH THE SURFACE OF THE SKIN5"
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL"
               },
               {
-                "benefit": "SMOOTH THE SURFACE OF THE SKIN6"
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL2"
               },
               {
-                "benefit": "SMOOTH THE SURFACE OF THE SKIN7"
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL3"
               },
               {
-                "benefit": "SMOOTH THE SURFACE OF THE SKIN8"
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL4"
               }
             ]
           },
           {
-            "cardTitle": "FACIAL TREATMENTS 3",
-            "time": "60 min",
-            "price": "$190",
+            "cardTitle": "Ladies' Waxing - Bikini (Hot Wax)",
+            "time": "20 mins",
+            "price": "£25",
             "background": "images/services/services.jpg",
             "description": "Innovative facial treatment that brings together avant-garde products with advanced manual technique to rejuvenate your skin",
             "benefits": [
               {
-                "benefit": "SMOOTH THE SURFACE OF THE SKIN9"
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL"
               },
               {
-                "benefit": "SMOOTH THE SURFACE OF THE SKIN10"
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL2"
               },
               {
-                "benefit": "SMOOTH THE SURFACE OF THE SKIN11"
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL3"
               },
               {
-                "benefit": "SMOOTH THE SURFACE OF THE SKIN12"
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL4"
               }
             ]
-          }
-        ],
-        "NAILS TREATMENTS": [
+          },
           {
-            "cardTitle": "NAILS TREATMENTS",
-            "time": "60 min",
-            "price": "$90",
+            "cardTitle": "Ladies' Waxing - Leg",
+            "time": "25 mins - 40mins",
+            "price": "£40 - £50",
+            "background": "images/services/services.jpg",
+            "description": "Innovative facial treatment that brings together avant-garde products with advanced manual technique to rejuvenate your skin",
+            "benefits": [
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL2"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL3"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL4"
+              }
+            ]
+          },
+          {
+            "cardTitle": "Ladies' Waxing - Extended Bikini",
+            "time": "30 mins",
+            "price": "£30",
+            "background": "images/services/services.jpg",
+            "description": "Innovative facial treatment that brings together avant-garde products with advanced manual technique to rejuvenate your skin",
+            "benefits": [
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL2"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL3"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL4"
+              }
+            ]
+          },
+          {
+            "cardTitle": "Ladies' Waxing - Arm & Underarm",
+            "time": "10 mins - 25 mins",
+            "price": "£15 - £30",
+            "background": "images/services/services.jpg",
+            "description": "Innovative facial treatment that brings together avant-garde products with advanced manual technique to rejuvenate your skin",
+            "benefits": [
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL2"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL3"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL4"
+              }
+            ]
+          },
+          {
+            "cardTitle": "Ladies' Waxing - Upper Body",
+            "time": "30 mins - 45 mins",
+            "price": "£35",
+            "background": "images/services/services.jpg",
+            "description": "Innovative facial treatment that brings together avant-garde products with advanced manual technique to rejuvenate your skin",
+            "benefits": [
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL2"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL3"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL4"
+              }
+            ]
+          },
+          {
+            "cardTitle": "Ladies' Waxing - Face",
+            "time": "10 mins - 30 mins",
+            "price": "£11 - £30",
+            "background": "images/services/services.jpg",
+            "description": "Innovative facial treatment that brings together avant-garde products with advanced manual technique to rejuvenate your skin",
+            "benefits": [
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL2"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL3"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL4"
+              }
+            ]
+          },
+          {
+            "cardTitle": "Ladies' Waxing - Full Body",
+            "time": "1 hr 15 mins",
+            "price": "£110",
+            "background": "images/services/services.jpg",
+            "description": "Innovative facial treatment that brings together avant-garde products with advanced manual technique to rejuvenate your skin",
+            "benefits": [
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL2"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL3"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL4"
+              }
+            ]
+          },
+          {
+            "cardTitle": "Ladies' Waxing - Underarm",
+            "time": "20 mins",
+            "price": "£15",
+            "background": "images/services/services.jpg",
+            "description": "Innovative facial treatment that brings together avant-garde products with advanced manual technique to rejuvenate your skin",
+            "benefits": [
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL2"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL3"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL4"
+              }
+            ]
+          },
+          {
+            "cardTitle": "Men's Waxing - Chest",
+            "time": "30 mins",
+            "price": "£30",
+            "background": "images/services/services.jpg",
+            "description": "Innovative facial treatment that brings together avant-garde products with advanced manual technique to rejuvenate your skin",
+            "benefits": [
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL2"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL3"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL4"
+              }
+            ]
+          },
+          {
+            "cardTitle": "Men's Waxing - Full Back",
+            "time": "45 mins",
+            "price": "£60",
+            "background": "images/services/services.jpg",
+            "description": "Innovative facial treatment that brings together avant-garde products with advanced manual technique to rejuvenate your skin",
+            "benefits": [
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL2"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL3"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL4"
+              }
+            ]
+          },
+          {
+            "cardTitle": "Men's Waxing - Abdomen",
+            "time": "30 mins",
+            "price": "£50",
             "background": "images/services/services.jpg",
             "description": "Innovative facial treatment that brings together avant-garde products with advanced manual technique to rejuvenate your skin",
             "benefits": [
@@ -233,11 +650,305 @@
             ]
           }
         ],
-        "HAIR TREATMENTS": [
+        "BODY": [
           {
-            "cardTitle": "HAIR TREATMENTS",
-            "time": "60 min",
-            "price": "$90",
+            "cardTitle": "Vitamin C Injection",
+            "time": "20 mins",
+            "price": "£50",
+            "background": "images/services/services.jpg",
+            "description": "Innovative facial treatment that brings together avant-garde products with advanced manual technique to rejuvenate your skin",
+            "benefits": [
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL2"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL3"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL4"
+              }
+            ]
+          },
+          {
+            "cardTitle": "B12 Vitamin Injection",
+            "time": "25 mins",
+            "price": "£50",
+            "background": "images/services/services.jpg",
+            "description": "Innovative facial treatment that brings together avant-garde products with advanced manual technique to rejuvenate your skin",
+            "benefits": [
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL2"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL3"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL4"
+              }
+            ]
+          },
+          {
+            "cardTitle": "Hand Treatment",
+            "time": "30 mins",
+            "price": "£50",
+            "background": "images/services/services.jpg",
+            "description": "Innovative facial treatment that brings together avant-garde products with advanced manual technique to rejuvenate your skin",
+            "benefits": [
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL2"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL3"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL4"
+              }
+            ]
+          },
+          {
+            "cardTitle": "Pelvic Muscle Repair",
+            "time": "30 mins",
+            "price": "£120",
+            "background": "images/services/services.jpg",
+            "description": "Innovative facial treatment that brings together avant-garde products with advanced manual technique to rejuvenate your skin",
+            "benefits": [
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL2"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL3"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL4"
+              }
+            ]
+          },
+          {
+            "cardTitle": "Body Sculpt EMS Machine - Fat Burning, Muscle Toning, Shape, Lift & Tighten",
+            "time": "30 mins",
+            "price": "£120",
+            "background": "images/services/services.jpg",
+            "description": "Innovative facial treatment that brings together avant-garde products with advanced manual technique to rejuvenate your skin",
+            "benefits": [
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL2"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL3"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL4"
+              }
+            ]
+          },
+          {
+            "cardTitle": "Weight Loss / Body Sculpting Consultation",
+            "time": "30 mins",
+            "price": "£1",
+            "background": "images/services/services.jpg",
+            "description": "Innovative facial treatment that brings together avant-garde products with advanced manual technique to rejuvenate your skin",
+            "benefits": [
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL2"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL3"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL4"
+              }
+            ]
+          },
+          {
+            "cardTitle": "Anti-Cellulite Treatment",
+            "time": "30 mins",
+            "price": "£78",
+            "background": "images/services/services.jpg",
+            "description": "Innovative facial treatment that brings together avant-garde products with advanced manual technique to rejuvenate your skin",
+            "benefits": [
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL2"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL3"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL4"
+              }
+            ]
+          },
+          {
+            "cardTitle": "Cellulite Treatment With Radio Frequency Skin Tightening",
+            "time": "30 mins",
+            "price": "£90",
+            "background": "images/services/services.jpg",
+            "description": "Innovative facial treatment that brings together avant-garde products with advanced manual technique to rejuvenate your skin",
+            "benefits": [
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL2"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL3"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL4"
+              }
+            ]
+          },
+          {
+            "cardTitle": "Lipo-Light",
+            "time": "30 mins",
+            "price": "£89",
+            "background": "images/services/services.jpg",
+            "description": "Innovative facial treatment that brings together avant-garde products with advanced manual technique to rejuvenate your skin",
+            "benefits": [
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL2"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL3"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL4"
+              }
+            ]
+          },
+          {
+            "cardTitle": "Laser Lipo",
+            "time": "30 mins",
+            "price": "£50 - £189",
+            "background": "images/services/services.jpg",
+            "description": "Innovative facial treatment that brings together avant-garde products with advanced manual technique to rejuvenate your skin",
+            "benefits": [
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL2"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL3"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL4"
+              }
+            ]
+          },
+          {
+            "cardTitle": "Ultrasound Cavitation Therapy",
+            "time": "30 mins",
+            "price": "£70",
+            "background": "images/services/services.jpg",
+            "description": "Innovative facial treatment that brings together avant-garde products with advanced manual technique to rejuvenate your skin",
+            "benefits": [
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL2"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL3"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL4"
+              }
+            ]
+          },
+          {
+            "cardTitle": "Cryotherapy",
+            "time": "30 mins",
+            "price": "£80",
+            "background": "images/services/services.jpg",
+            "description": "Innovative facial treatment that brings together avant-garde products with advanced manual technique to rejuvenate your skin",
+            "benefits": [
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL2"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL3"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL4"
+              }
+            ]
+          },
+          {
+            "cardTitle": "Mesotherapy Consultation",
+            "time": "30 mins",
+            "price": "£1",
+            "background": "images/services/services.jpg",
+            "description": "Innovative facial treatment that brings together avant-garde products with advanced manual technique to rejuvenate your skin",
+            "benefits": [
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL2"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL3"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL4"
+              }
+            ]
+          },
+          {
+            "cardTitle": "No Needle Mesotherapy",
+            "time": "30 mins",
+            "price": "£100",
+            "background": "images/services/services.jpg",
+            "description": "Innovative facial treatment that brings together avant-garde products with advanced manual technique to rejuvenate your skin",
+            "benefits": [
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL2"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL3"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL4"
+              }
+            ]
+          },
+          {
+            "cardTitle": "Lymphatic Drainage Massage With Cavitation",
+            "time": "30 mins",
+            "price": "£70",
             "background": "images/services/services.jpg",
             "description": "Innovative facial treatment that brings together avant-garde products with advanced manual technique to rejuvenate your skin",
             "benefits": [
@@ -256,11 +967,11 @@
             ]
           }
         ],
-        "LASHES | BROWS TREATMENTS": [
+        "MASSAGE": [
           {
-            "cardTitle": "LASHES | BROWS TREATMENTS",
-            "time": "60 min",
-            "price": "$90",
+            "cardTitle": "Deep Tissue Massage",
+            "time": "30 mins",
+            "price": "£50",
             "background": "images/services/services.jpg",
             "description": "Innovative facial treatment that brings together avant-garde products with advanced manual technique to rejuvenate your skin",
             "benefits": [
@@ -277,13 +988,158 @@
                 "benefit": "SMOOTH THE SURFACE OF THE NAIL4"
               }
             ]
-          }
-        ],
-        "BODY TREATMENTS": [
+          },
           {
-            "cardTitle": "BODY TREATMENTS",
-            "time": "60 min",
-            "price": "$90",
+            "cardTitle": "Swedish Massage",
+            "time": "30 mins",
+            "price": "£50",
+            "background": "images/services/services.jpg",
+            "description": "Innovative facial treatment that brings together avant-garde products with advanced manual technique to rejuvenate your skin",
+            "benefits": [
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL2"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL3"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL4"
+              }
+            ]
+          },
+          {
+            "cardTitle": "Back, Neck & Shoulders Massage",
+            "time": "30 mins",
+            "price": "£45",
+            "background": "images/services/services.jpg",
+            "description": "Innovative facial treatment that brings together avant-garde products with advanced manual technique to rejuvenate your skin",
+            "benefits": [
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL2"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL3"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL4"
+              }
+            ]
+          },
+          {
+            "cardTitle": "Back Massage",
+            "time": "30 mins",
+            "price": "£45",
+            "background": "images/services/services.jpg",
+            "description": "Innovative facial treatment that brings together avant-garde products with advanced manual technique to rejuvenate your skin",
+            "benefits": [
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL2"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL3"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL4"
+              }
+            ]
+          },
+          {
+            "cardTitle": "Face Massage",
+            "time": "10 mins",
+            "price": "£30",
+            "background": "images/services/services.jpg",
+            "description": "Innovative facial treatment that brings together avant-garde products with advanced manual technique to rejuvenate your skin",
+            "benefits": [
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL2"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL3"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL4"
+              }
+            ]
+          },
+          {
+            "cardTitle": "Pressotherapy Detox",
+            "time": "30 mins",
+            "price": "£80",
+            "background": "images/services/services.jpg",
+            "description": "Innovative facial treatment that brings together avant-garde products with advanced manual technique to rejuvenate your skin",
+            "benefits": [
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL2"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL3"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL4"
+              }
+            ]
+          },
+          {
+            "cardTitle": "Pressotherapy Athletic Recovery",
+            "time": "30 mins",
+            "price": "£80",
+            "background": "images/services/services.jpg",
+            "description": "Innovative facial treatment that brings together avant-garde products with advanced manual technique to rejuvenate your skin",
+            "benefits": [
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL2"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL3"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL4"
+              }
+            ]
+          },
+          {
+            "cardTitle": "Pressotherapy - Pre & Post Surgical Recovery",
+            "time": "30 mins",
+            "price": "£70",
+            "background": "images/services/services.jpg",
+            "description": "Innovative facial treatment that brings together avant-garde products with advanced manual technique to rejuvenate your skin",
+            "benefits": [
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL2"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL3"
+              },
+              {
+                "benefit": "SMOOTH THE SURFACE OF THE NAIL4"
+              }
+            ]
+          },
+          {
+            "cardTitle": "Lymphatic Drainage Massage",
+            "time": "30 mins",
+            "price": "£80",
             "background": "images/services/services.jpg",
             "description": "Innovative facial treatment that brings together avant-garde products with advanced manual technique to rejuvenate your skin",
             "benefits": [
@@ -327,6 +1183,6 @@
     
   ],
   "Whatsapp": {
-    "link": "https://wa.me/XXXXXXXXXXX"
+    "link": "https://wa.me/447862497077"
   }
 }

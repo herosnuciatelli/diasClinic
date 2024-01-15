@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import React, { useEffect, useState } from "react";
-import {cards_home_services} from "../../content/json/components-mock.json"
+import {cards_home_services, Services} from "../../content/json/components-mock.json"
 import { useNavigate  } from "react-router-dom";
 import { scroller } from "react-scroll";
 
@@ -31,6 +31,7 @@ const ServiceOptions = styled.div`
 
   &::-webkit-scrollbar {
     width: 4px;
+    height: 10px;
   }
 
   &::-webkit-scrollbar-track {
@@ -85,10 +86,30 @@ const TooltipImg = styled.div.attrs(props => ({
 
 export default function Tooltip() {
     const [option, setOption] = useState(0);
-
+    const serviceData = Services[1].Cards;
+    const [service, setService] = useState(serviceData.FACE);
+    
+    
   
     const handleOption = (index) => {
-        setOption(index)
+      setOption(index);
+      switch (index){
+        case 0: 
+        setService(serviceData.FACE)
+        break;
+        case 1: 
+          setService(serviceData.HAIR)
+        break;
+        case 2:
+          setService(serviceData["HAIR REMOVAL"]);
+        break;
+        case 3:
+          setService(serviceData.BODY);
+        break;
+        case 4:
+          setService(serviceData.MASSAGE);
+        break;
+      }
     }
 
     const scrollTo = (section) => {
@@ -121,8 +142,8 @@ export default function Tooltip() {
       </ServiceOptions>
       <ServiceOptions style={{ borderRight: "1px solid #d8d1bd" }}>
         <ServiceTitle>{cards_home_services[option].title}</ServiceTitle>
-        {cards_home_services[option].Services.map((service) => (
-            <ServiceOption key={service.serviceName} onClick={(e) => handle(e, cards_home_services[option].bannerTitle)}>{service.serviceName}</ServiceOption>
+        {service.map((service) => (
+            <ServiceOption key={service.cardTitle} onClick={(e) => handle(e, cards_home_services[option].bannerTitle)}>{service.cardTitle}</ServiceOption>
         ))}
         
       </ServiceOptions>

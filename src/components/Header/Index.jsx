@@ -13,7 +13,7 @@ import Menu from "./Menu";
 import { useNavigate } from "react-router-dom";
 import { Link as ScrollLink, scroller } from "react-scroll";
 import Tooltip from "./Tooltip";
-
+import { Whatsapp } from "../../content/json/components-mock.json"
 
 
 
@@ -120,7 +120,7 @@ export const Header = forwardRef((props, ref) => {
             </GroupItem>
 
             <GroupItem>
-              <GroupLink href="https://wa.me/XXXXXXXXXXX" target="_blanket" onMouseOver={() => setIsOpen(false)}>Book Now</GroupLink>
+              <GroupLink href={Whatsapp.link} target="_blanket" onMouseOver={() => setIsOpen(false)}>Book Now</GroupLink>
             </GroupItem>
           </GroupHeader>
           <Hamburger menuRef={menuRef} hamburguerRef={hamburguerRef} />
