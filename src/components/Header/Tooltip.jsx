@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import React, { useEffect, useState } from "react";
+import { useState } from "react";
 import {cards_home_services, Services} from "../../content/json/components-mock.json"
 import { useNavigate  } from "react-router-dom";
 import { scroller } from "react-scroll";
@@ -81,13 +81,14 @@ const TooltipImg = styled.div.attrs(props => ({
   background: url(${props => props.$background});
   background-size: cover;
   background-position: center;
+  filter: grayscale(1);
 `;
 
 
 export default function Tooltip() {
     const [option, setOption] = useState(0);
     const serviceData = Services[1].Cards;
-    const [service, setService] = useState(serviceData.FACE);
+    const [service, setService] = useState(serviceData.CONSULTATION);
     
     
   
@@ -95,18 +96,21 @@ export default function Tooltip() {
       setOption(index);
       switch (index){
         case 0: 
-        setService(serviceData.FACE)
+          setService(serviceData.CONSULTATION)
         break;
         case 1: 
+        setService(serviceData.FACE)
+        break;
+        case 2: 
           setService(serviceData.HAIR)
         break;
-        case 2:
+        case 3:
           setService(serviceData["HAIR REMOVAL"]);
         break;
-        case 3:
+        case 4:
           setService(serviceData.BODY);
         break;
-        case 4:
+        case 5:
           setService(serviceData.MASSAGE);
         break;
       }

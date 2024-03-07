@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Header } from "../../components/Header/Index.jsx";
 import { MainContainer } from "../../styles/Index";
 import WppButton from "../../components/WppButton";
@@ -16,6 +16,7 @@ import {
   Winner,
   Location,
   Whatsapp,
+  Pictures
 } from "../../content/json/components-mock.json";
 import Picture from "../../components/Picture";
 import Footer from "../../components/Footer";
@@ -27,14 +28,14 @@ export default function Home() {
 
   const settings = {
     slidesPerView: slidesPerView,
-    loop: true,
+    loop: false,
   };
 
   useEffect(() => {
     if (window.innerWidth < 1000) {
       setSlidesPerView(3);
     }
-  }, [window.innerWidth]);
+  }, []);
 
   const mainContainerRef = useRef(null);
 
@@ -51,8 +52,8 @@ export default function Home() {
                 </ComponentsStyles.HeroTitle>
                 <a href={Whatsapp.link} target="_blanket">
                   <ComponentsStyles.ButtonCTA
-                    color="#fff"
-                    $colorhover="var(--secundary-color)"
+                    color="var(--secundary-color)"
+                    $colorhover="var(--primary-color)"
                   >
                     Book Now
                   </ComponentsStyles.ButtonCTA>
@@ -60,8 +61,8 @@ export default function Home() {
               </ComponentsStyles.HeroContentWrapper>
               <ComponentsStyles.Email>
                 <a
-                  href="mailto:"
-                  style={{ textDecoration: "none", color: "#fff" }}
+                  href="mailto:info@diasclinic.uk"
+                  style={{ textDecoration: "none", color: "var(--primary-color)" }}
                 >
                   {HeroInfo.email}
                 </a>
@@ -133,7 +134,7 @@ export default function Home() {
                 </ComponentsStyles.ButtonCTA>
               </a>
             </ComponentsStyles.WinnerContent>
-            <ComponentsStyles.WinnerImg src={Winner.image} />
+            <ComponentsStyles.WinnerTreatwell href="https://www.treatwell.co.uk/place/dias-clinic-notting-hill/" target="_blank"><ComponentsStyles.WinnerImg src={Winner.image} /></ComponentsStyles.WinnerTreatwell>
           </ComponentsStyles.WinnerContainer>
         </ComponentsStyles.Winner>
 
@@ -201,7 +202,7 @@ export default function Home() {
         <ComponentsStyles.Pictures>
           <ComponentsStyles.PicturesContainer>
             <ComponentsStyles.SectionTitle>
-              WE ARE FOR AESTHETIC PLEASURE
+              {Pictures.phrase}
             </ComponentsStyles.SectionTitle>
           </ComponentsStyles.PicturesContainer>
 

@@ -9,6 +9,11 @@ const ButtonServices = styled.button`
     letter-spacing: 0.15em;
     position: relative;
     cursor: pointer;
+
+    @media (max-width:768px) {
+        font-size: 10px;
+        padding: 10px 10px;
+    }
 `
 const Overlay = styled.div`
     position: absolute;
@@ -19,11 +24,7 @@ const Overlay = styled.div`
     transition: 100ms;
 `
 
-const Container = styled.div.attrs(props => ({
-    // dynamic ones
-    $background: props.$background
-  }))`
-    background: url(${(props) => props.$background});
+const Container = styled.div`
     height: 280px;
     display: flex;
     align-items: end;
@@ -42,12 +43,27 @@ const Container = styled.div.attrs(props => ({
     }
 
     @media (max-width:768px) {
-        &:nth-child(3) {
+        &:nth-child(1),
+        &:nth-child(6) {
             grid-column-start: 1;
             grid-column-end: 3;
         }
         height: 210px;
     }
+`
+
+const Background = styled.div.attrs(props => ({
+    // dynamic ones
+    $background: props.$background
+  }))`
+    background: url(${(props) => props.$background});
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    filter: grayscale(1);
+    background-size: cover;
+    background-position: center;
 `
 
 import { scroller } from "react-scroll";
@@ -79,7 +95,8 @@ export default function Card(props) {
 
 
   return (
-    <Container $background={props.background}>
+    <Container>
+        <Background $background={props.background}></Background>
         <Overlay></Overlay>
         <a href="/services" onClick={(e) => handle(e)}>
             <ButtonServices>{props.title}</ButtonServices>

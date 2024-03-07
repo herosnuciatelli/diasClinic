@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import { useRef } from 'react'
 import {Header} from '../../components/Header/Index'
 import { MainContainer } from '../../styles/Index'
 import styled from 'styled-components'
@@ -15,7 +15,7 @@ const ServiceBanner = styled.div.attrs(props => ({
   height: 40vh;
   display: grid;
   place-items: center;
-  background: url(${props => props.$bannerbackground});
+  background: var(--secundary-color);
   background-size: cover;
   background-position: center;
 `
@@ -47,6 +47,7 @@ import {Services as ServicesContent} from "../../content/json/components-mock.js
 
 export default function Services() {
   const mainContainerRefServices = useRef(null);
+
   return (
     <>
       <Header mainContainerRefServices={mainContainerRefServices}/>
@@ -54,20 +55,21 @@ export default function Services() {
         {ServicesContent[0].Banners.map((banner => (
           <div key={banner.bannerTitle}>
             <Element name={banner.bannerTitle}>
-              <ServiceBanner $bannerbackground={banner.background}>
+              <ServiceBanner>
                 <BannerTitle>{banner.bannerTitle}</BannerTitle>
               </ServiceBanner>
 
               <ServiceContainer>
                 {ServicesContent[1].Cards[`${banner.bannerTitle}`].map((card) => (
                   <ServiceCard 
-                  cardTitle={card.cardTitle} 
-                  time={card.time}
-                  price={card.price}
-                  background={card.background}
-                  description={card.description}
-                  benefits={card.benefits}
-                  key={card.cardTitle}
+                    cardTitle={card.cardTitle} 
+                    time={card.time}
+                    price={card.price}
+                    background={card.background}
+                    description={card.description}
+                    benefits={card.benefits}
+                    key={card.cardTitle}
+                    list={card.list}
                   />
                 ))}
               </ServiceContainer>

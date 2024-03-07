@@ -1,10 +1,10 @@
-import React from "react";
 import styled from "styled-components";
 import LocationPin from "../../assets/location-pin.jsx";
 import Phone from "../../assets/phone.jsx";
 import Instagram from "../../assets/instagram.svg";
 import Whatsapp from "../../assets/whatsapp.svg";
-import {Location} from '../../content/json/components-mock.json'
+import {Location, Whatsapp as WppNumber} from '../../content/json/components-mock.json'
+
 
 const FooterPage = styled.footer`
   background: var(--secundary-color);
@@ -47,7 +47,7 @@ export default function Footer() {
   return (
     <FooterPage>
       <FooterContent>
-        <FooterText>DIAS CLINIC HOUSE</FooterText>
+        <FooterText>Dias Clinic</FooterText>
         <FooterText style={{ marginTop: "20px" }}>
           <LocationPin color="var(--primary-color)" /> {Location.address}
         </FooterText>
@@ -57,7 +57,7 @@ export default function Footer() {
       </FooterContent>
       <SocialMedias>
           <a href="https://instagram.com/diasclinic" target="_blanket"><SocialIcon src={Instagram} alt="instagram" /></a>
-          <a href="https://wa.me/XXXXXXXXXXX" target="_blanket"><SocialIcon src={Whatsapp} alt="whatsapp" /></a>
+          <a href={WppNumber.link} target="_blanket"><SocialIcon src={Whatsapp} alt="whatsapp" /></a>
       </SocialMedias>
     </FooterPage>
   );

@@ -10,9 +10,10 @@
 
 :root {
     /* colors */
-    --primary-color: #fff;
-    --secundary-color: #202020;
-    --third-color: #00A242;
+    --primary-color: #FFFCEF;
+    --secundary-color: #10371D;
+    --third-color: #A6B98B;
+    --detail-color: #ceaa5d;
 
     /* props */
 

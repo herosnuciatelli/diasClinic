@@ -2,28 +2,28 @@ import styled from "styled-components";
 
 const Hero = styled.section`
   padding: var(--padding-section-global);
-  background: url(images/heroBanner.jpg);
+  background: url(images/hero-banner.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
   background-position: center;
 
   @media (max-width: 768px) {
-    background: url(images/heroBannerMobile.jpg);
     background-position: bottom;
+    height: 80vh;
   }
-`
+`;
 const HeroContainer = styled.div`
   display: grid;
   grid-template-columns: 40% 60%;
   height: 100%;
   align-items: center;
 
-  @media (max-width:768px) {
+  @media (max-width: 768px) {
     grid-template-columns: 100%;
     text-align: center;
   }
-`
+`;
 
 const HeroContent = styled.div`
   grid-column-start: 2;
@@ -33,29 +33,33 @@ const HeroContent = styled.div`
   text-align: right;
   justify-items: right;
 
-  @media (max-width:768px) {
+  @media (max-width: 768px) {
     text-align: center;
     justify-items: center;
     grid-column-start: 1;
   }
-`
+`;
 
 const HeroTitle = styled.h2`
-  font-size: 30px;
+  font-size: 28px;
   font-weight: 500;
-  color: #fff;
+  color: var(--secundary-color);
+  text-transform: uppercase;
   letter-spacing: 0.4rem;
-`
+  @media (max-width: 768px) {
+    font-size: 25px;
+  }
+`;
 
-const ButtonCTA = styled.button.attrs(props => ({
+const ButtonCTA = styled.button.attrs((props) => ({
   $colorHover: props.$colorhover,
 }))`
-  border: 1px solid ${props => props.color};
+  border: 1px solid ${(props) => props.color};
   padding: 14px 32px;
   font-size: 13px;
   text-transform: uppercase;
   background: transparent;
-  color: ${props => props.color};
+  color: ${(props) => props.color};
   letter-spacing: 0.1rem;
   cursor: pointer;
   transition: 100ms;
@@ -63,14 +67,16 @@ const ButtonCTA = styled.button.attrs(props => ({
   height: max-content;
 
   &:hover {
-    background: ${props => props.color};
-    color: ${props => props.$colorhover};
+    background: ${(props) => props.color};
+    color: ${(props) => props.$colorhover};
   }
 
   @media (max-width: 768px) {
     margin: 0 auto;
+    background-color: ${(props) => props.color};
+    color: ${(props) => props.$colorhover};
   }
-`
+`;
 
 const HeroContentWrapper = styled.div`
   grid-row-start: 2;
@@ -78,10 +84,10 @@ const HeroContentWrapper = styled.div`
   display: grid;
   gap: 20px;
   justify-items: right;
-  @media (max-width:768px) {
+  @media (max-width: 768px) {
     justify-items: center;
   }
-`
+`;
 
 const Email = styled.div`
   grid-row-start: 3;
@@ -91,7 +97,7 @@ const Email = styled.div`
   color: #fff;
   text-transform: uppercase;
   font-size: 18px;
-`
+`;
 
 const History = styled.section`
   padding: var(--padding-section-global);
@@ -99,14 +105,14 @@ const History = styled.section`
   @media (max-width: 768px) {
     text-align: center;
   }
-`
+`;
 const SectionTitle = styled.h2`
   font-size: var(--section-title-font-size);
   letter-spacing: 0.15em;
   font-weight: 500;
   text-transform: uppercase;
   margin-bottom: 40px;
-`
+`;
 const HistoryContainer = styled.div`
   width: 100%;
   display: grid;
@@ -119,7 +125,7 @@ const HistoryContainer = styled.div`
     text-align: center;
     gap: 0;
   }
-`
+`;
 const HistoryContent = styled.div`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -128,21 +134,21 @@ const HistoryContent = styled.div`
     grid-row-start: 1;
     grid-row-end: 3;
   }
-`
+`;
 const DescriptionTitle = styled.div`
   grid-column-start: 1;
   grid-column-end: 4;
   font-size: 20px;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-`
+`;
 const Description = styled.div`
   font-size: 16px;
   grid-column-start: 1;
   grid-column-end: 4;
   margin: 20px 0;
   opacity: 0.7;
-`
+`;
 
 const Foto = styled.img`
   grid-column: 1/2;
@@ -154,8 +160,7 @@ const Foto = styled.img`
     grid-column-start: 1;
     grid-column-end: 4;
   }
-
-`
+`;
 
 const Services = styled.section`
   padding: var(--padding-section-global);
@@ -169,20 +174,19 @@ const Services = styled.section`
 const ServicesContainer = styled.div`
   padding: 0% 10%;
   display: grid;
-  grid-template-columns: repeat(3, minmax(min(50px,100%), 280px));
+  grid-template-columns: repeat(3, minmax(min(50px, 100%), 280px));
   grid-template-rows: repeat(2, 1fr);
   grid-gap: 1rem;
   justify-content: center;
 
   @media (max-width: 1024px) {
-    grid-template-columns: repeat(2, minmax(min(50px,100%), 280px));
+    grid-template-columns: repeat(2, minmax(min(50px, 100%), 280px));
   }
   @media (max-width: 768px) {
-    grid-template-columns: repeat(2, minmax(min(50px,100%), 280px));
+    grid-template-columns: repeat(2, minmax(min(50px, 100%), 280px));
     padding: 0;
   }
 `;
-
 
 const Winner = styled.section`
   background-color: var(--secundary-color);
@@ -195,7 +199,7 @@ const WinnerContainer = styled.div`
 
   @media (max-width: 1024px) {
     grid-template-columns: 1fr;
-    row-gap: 8px;
+    row-gap: 20px;
   }
 `;
 
@@ -204,23 +208,30 @@ const WinnerContent = styled.div`
 `;
 
 const WinnerImg = styled.img`
+  cursor: pointer;
+  transition: 500ms;
+  &:hover {
+    filter: drop-shadow(0px 0px 40px var(--detail-color));
+  }
+`;
+
+const WinnerTreatwell = styled.a`
   grid-column-start: 3;
-  margin: 0 auto;
+  margin: auto;
+
   @media (max-width: 1024px) {
     grid-column-start: 1;
     grid-row-start: 3;
-  };
+  }
   @media (max-width: 768px) {
     grid-column-start: 1;
     grid-row-start: 1;
-    width: 70%;
-    max-width: 280px;
   }
 `;
 
 const Locations = styled.section`
   padding: var(--padding-section-global);
-  background: var(--primary-color);
+  background: var(--third-color);
 `;
 const LocationContainer = styled.div``;
 const LocationContent = styled.div`
@@ -238,7 +249,7 @@ const MapsContainer = styled.div`
 
   @media (max-width: 1024px) {
     width: 100%;
-    height: 400px
+    height: 400px;
   }
 `;
 const AddressContent = styled.div`
@@ -290,37 +301,37 @@ const PicturesContainer = styled.div`
   padding-bottom: 0;
 `;
 
-
 export default {
-    Hero,
-    HeroContainer,
-    HeroContent,
-    HeroContentWrapper,
-    HeroTitle,
-    ButtonCTA,
-    Email,
-    History,
-    SectionTitle,
-    HistoryContainer,
-    HistoryContent,
-    Description,
-    DescriptionTitle,
-    Foto,
-    Services,
-    ServicesContainer,
-    Winner,
-    WinnerContainer,
-    WinnerContent,
-    WinnerImg,
-    Locations,
-    LocationContainer,
-    LocationContent,
-    MapsContainer,
-    AddressContent,
-    ContentTitle,
-    DescriptionLight,
-    InfoContainer,
-    InfoSpan,
-    Pictures,
-    PicturesContainer
-}
+  Hero,
+  HeroContainer,
+  HeroContent,
+  HeroContentWrapper,
+  HeroTitle,
+  ButtonCTA,
+  Email,
+  History,
+  SectionTitle,
+  HistoryContainer,
+  HistoryContent,
+  Description,
+  DescriptionTitle,
+  Foto,
+  Services,
+  ServicesContainer,
+  Winner,
+  WinnerContainer,
+  WinnerContent,
+  WinnerImg,
+  Locations,
+  LocationContainer,
+  LocationContent,
+  MapsContainer,
+  AddressContent,
+  ContentTitle,
+  DescriptionLight,
+  InfoContainer,
+  InfoSpan,
+  Pictures,
+  PicturesContainer,
+  WinnerTreatwell,
+};

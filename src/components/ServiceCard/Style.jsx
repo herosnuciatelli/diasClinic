@@ -77,6 +77,9 @@ const CardImg = styled.div.attrs((props) => ({
   `;
   const CardContent = styled.div`
     padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
   `;
   const CardButton = styled.a`
     cursor: pointer;
@@ -108,6 +111,8 @@ const CardImg = styled.div.attrs((props) => ({
     letter-spacing: 0.15em;
     text-transform: uppercase;
     list-style: none;
+    display: flex;
+    gap: 8px;
   `;
   
   const ArrowIcon = styled.img`

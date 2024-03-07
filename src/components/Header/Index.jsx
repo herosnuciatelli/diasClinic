@@ -1,4 +1,4 @@
-import React, { forwardRef, useEffect, useRef, useState } from "react";
+import { forwardRef, useEffect, useRef, useState } from "react";
 import { Center } from "../../styles/Index";
 import {
   Container,
@@ -14,7 +14,7 @@ import { useNavigate } from "react-router-dom";
 import { Link as ScrollLink, scroller } from "react-scroll";
 import Tooltip from "./Tooltip";
 import { Whatsapp } from "../../content/json/components-mock.json"
-
+import Logo from "../../assets/logo.png"
 
 
 export const Header = forwardRef((props, ref) => {
@@ -97,9 +97,9 @@ export const Header = forwardRef((props, ref) => {
           <LogoContainer>
             <GroupLink href="/" onMouseOver={() => setIsOpen(false)}>
               <img
-                src="https://logodownload.org/wp-content/uploads/2017/10/starbucks-logo-1.png"
-                alt="logo"
-                style={{ width: "70px" }}
+                src={Logo}
+                alt="dias clinic logo"
+                style={{ width: "80px" }}
               />
             </GroupLink>
           </LogoContainer>
@@ -115,7 +115,7 @@ export const Header = forwardRef((props, ref) => {
                 onClick={(e) => handleLocation(e)}
                 onMouseOver={() => setIsOpen(false)}
               >
-                Locations
+                Location
               </ScrollLink>
             </GroupItem>
 

@@ -15,20 +15,19 @@ const ProfileContainer = styled.div`
   display: flex;
   gap: 10px;
   margin-bottom: 20px;
-  
+
   @media (max-width: 768px) {
     flex-direction: column;
   }
 `;
-const ProfileImg = styled.div.attrs(props => ({
-  $background: props.$background
+const ProfileImg = styled.div.attrs((props) => ({
+  $background: props.$background,
 }))`
   width: 80px;
   height: 80px;
-  background: url(${props => props.$background});
+  background: url(${(props) => props.$background});
   border-radius: 100%;
-  background-position: center;
-  background-size: cover;
+  background-position: top;
 
   @media (max-width: 768px) {
     margin: 0 auto;
@@ -43,16 +42,12 @@ const Rate = styled.img`
   width: 15px;
 `;
 const Name = styled.span`
-    font-weight: 300;
-    font-size: 18px;
-`;
-const FeedbackDate = styled.span`
-    font-weight: 300;
-    font-size: 16px;
+  font-weight: 300;
+  font-size: 18px;
 `;
 
 const Content = styled.div`
-  height: 100px;
+  height: 120px;
   overflow-y: scroll;
 
   &::-webkit-scrollbar {
@@ -77,15 +72,12 @@ export default function FeedbackComponent(props) {
           <ProfileImg $background={props.photo}></ProfileImg>
           <ProfileContent>
             <div>
-              <Rate src={Star} />
-              <Rate src={Star} />
-              <Rate src={Star} />
-              <Rate src={Star} />
-              <Rate src={Star} />
+              {Array.from({ length: 5 }).map((_,i) => {
+                return <Rate src={Star} key={i + 'star'} />;
+              })}
             </div>
 
             <Name>{props.name}</Name>
-            <FeedbackDate>{props.date}</FeedbackDate>
           </ProfileContent>
         </ProfileContainer>
         <Content>
